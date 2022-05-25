@@ -64,9 +64,9 @@ $limbs = $_POST['limbs'];
 $policy = $_POST['policy'];
 $powers = implode(',',$_POST['select']);
 
-$user = 'u47501';
-$pass = '1469373';
-$db = new PDO('mysql:host=localhost;dbname=u47501', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+$user = 'u47506';
+$pass = '4389371';
+$db = new PDO('mysql:host=localhost;dbname=u47506', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
 // Подготовленный запрос. Не именованные метки.
 try {
